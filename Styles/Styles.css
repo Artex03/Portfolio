@@ -1,0 +1,218 @@
+.navbar {
+    border-top : solid #34FDD0 5px;
+    -webkit-box-shadow: 0 2px 4px #555; 
+    box-shadow: 0 2px 4px #555; 
+    color: #333;
+}
+
+.sectionFormation{
+    background-color: #333333;
+    color: white;
+}
+
+.divFormations{
+    width: 80%;
+    height: 70%;
+    background-color: black;
+    margin: auto;
+    border-top: solid #34FDD0 5px;
+    border-radius: 5px;
+    padding: none;
+}
+
+.sectionCompetences{
+    background-color: #DDDDDD;
+}
+
+.sectionContact{
+    background-color: #333333;
+    color: white;
+}
+
+.divContact{
+    width: 80%;
+    height: 75%;
+    background-color: white;
+    margin: auto;
+    border-top: solid #34FDD0 5px;
+    border-radius: 5px;
+    color: #333333;
+}
+
+.logo{
+    width: 70px;
+    margin-left: 20px;
+}
+.ligneContact:hover{
+    background-color: #3333334f;
+}
+.ligneContact{
+    margin: 20px;
+    margin-left: 2px !important;
+    text-decoration: none;
+    border-radius: 20px;
+    width: 380px;
+}
+
+.ligneContact>a{
+    text-decoration: none;
+    color: #333333;
+    margin-left: 1%;
+}
+
+.ligneContact>a>img{
+    margin-right: 4%;
+}
+
+.divCompetences{
+    background-color: #ffffff;
+    width: 80%;
+    margin: auto;
+    height: 60%;
+    border-top: solid #34FDD0 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 2px 4px #555; 
+    box-shadow: 0 2px 4px #555; 
+    color: #333;
+    
+}
+
+
+.iphone {
+    height: 300px;
+}
+
+.divLycee{
+    width: 100%;
+    height: 34%;
+    cursor: pointer;
+}
+
+.divLycee>h3{
+    padding: 1%;
+}
+.divLycee>h5{
+    padding-left: 1%;
+}
+
+.divLycee>h6{
+    padding-left: 1%;
+}
+
+.stbe{
+    background-image: url('../Images/sio.jpg');
+    background-repeat: no-repeat;
+    background-position: 10% ;
+    background-size: cover;
+    margin: 0px;
+}
+
+.eiffel{
+    background-image: url('../Images/itec.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -9px;
+}
+.mirebeau{
+    background-image: url('../Images/college.jpg');
+    background-repeat: no-repeat;
+    background-position: 30% ;
+    background-size: cover;
+}
+
+#map{
+    margin-right: 1%;
+}
+
+@media screen and (max-width: 1250px){
+    #map {
+        position:absolute; top:-999px; left:-9999px;
+    }
+}
+
+
+.imgproject{
+    max-width: 300px;
+    margin: auto;
+    margin-top: 1%;
+}
+
+.carte{
+    background-color: #333333;
+    color: white;
+
+}
+
+.colonne{
+    background-color: rgb(230, 218, 218);
+    text-align: center;
+    border-top: solid #34FDD0 5px;
+    margin: 5px;
+    color: black;
+    height: 50%;
+    border-radius: 5px;
+}
+
+.langage{
+    width: 40px;
+    margin: 10px;
+    float: left;
+}
+
+
+.divLangage{
+    float: left;
+}
+
+.gauche{
+    float: left;
+}
+
+.droite{
+    float: right;
+    margin-left: auto;
+    margin-right: 1%;
+}
+.container{
+    margin-top: 20px;
+}
+
+.divOutils{
+    width: 80%;
+    height: 75%;
+    background-color: white;
+    margin: auto;
+    border-top: solid #34FDD0 5px;
+    border-radius: 5px;
+    color: #333333;
+}
+
+.logicielImg{
+    margin-right: 10px;
+    width: 50px;
+}
+
+.tableOutils{
+    margin: auto;
+}
+
+
+
+.slide1{
+    background-color: red;
+    background-image: url('../Images/Image\ PPE2.png');
+    background-position: center;
+    background-size: 800px;
+    background-repeat: no-repeat;
+    filter: blur(4px);
+}
+
+.slide2{
+    background-color: blue;
+}
+.slide3{
+    background-color: green;
+}
+
+.titleblur{
+}
