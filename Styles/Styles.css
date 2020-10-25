@@ -204,7 +204,6 @@
     background-position: center;
     background-size: 800px;
     background-repeat: no-repeat;
-    filter: blur(4px);
 }
 
 .slide2{
@@ -214,5 +213,26 @@
     background-color: green;
 }
 
-.titleblur{
+.portrait{
+    border: solid 2px white;
+    border-radius: 50%;
+    float: right;
+}
+
+.divPortrait{
+    width: 70%;
+    height: 55%;
+    background-color:#333333;
+    margin: auto;
+    border-top: solid #34FDD0 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+.titleProject{
+    background-color: white;
+    color: black;
+    width: 30%;
+    border : 3px solid black;
+    margin: auto;
 }
